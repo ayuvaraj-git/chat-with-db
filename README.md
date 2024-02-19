@@ -1,4 +1,3 @@
-# chat-with-db
 
 Database Assistant - Convert Natural Language to SQL Queries
 This repository contains the code for a Streamlit web application that functions as a database assistant. It allows users to ask natural language questions about a Microsoft SQL Server database and receive corresponding SQL queries as responses.
