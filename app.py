@@ -27,6 +27,12 @@ connectionurl = URL.create(
 
 new_chat_id = f'{time.time()}'
 
+try:
+    os.mkdir('data/')
+except:
+    # data/ folder already exists
+    pass
+
 
 def get_database_session(connectionurl):
     engine1 = create_engine(connectionurl, pool_pre_ping=True)
