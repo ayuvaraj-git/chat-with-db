@@ -19,7 +19,7 @@ genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-pro')
 SERVER = os.getenv('SERVER')
 DATABASE = os.getenv('DATABASE')
-USERNAME = os.getenv('USERNAME')
+USERNAME = os.getenv('DBUSERNAME')
 PASSWORD = os.getenv('PASSWORD')
 connectionString = f'DRIVER={{ODBC Driver 18 for SQL Server}};SERVER={SERVER};DATABASE={DATABASE};UID={USERNAME};PWD={PASSWORD}'
 connectionurl = URL.create(
